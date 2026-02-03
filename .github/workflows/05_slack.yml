@@ -28,7 +28,7 @@ jobs:
 
           payload: |
             text: |
-              ${var_msg}
+              ${{ env.var_msg}}
               - repo: ${{ github.repository }}
               - branch: ${{ github.ref_name }}
               - actor: ${{ github.actor }}

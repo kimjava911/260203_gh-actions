@@ -1,0 +1,11 @@
+name: 02. trigger push
+
+on:
+  push: # push했을 때 구동
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 푸시 시 메시지 출력
+        run: echo "push가 감지되었습니다"

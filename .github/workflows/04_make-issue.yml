@@ -7,8 +7,8 @@ on:
         required: false
         default: "echo와 로그를 설정"
   push:
-    # branchs: "main"
-    branchs: ["main"]
+    # branches: "main"
+    branches: ["main"]
   pull_request:
 
 jobs:

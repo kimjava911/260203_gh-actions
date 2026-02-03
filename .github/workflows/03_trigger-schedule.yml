@@ -22,4 +22,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 스케줄 실행
-        run: "echo '스케줄 실행 시각(UTC): $(date -u '+%Y-%m-%d %H:%M:%S')'"
+        run: |
+          echo "실행 시각(UTC): $(date -u '+%Y-%m-%d %H:%M:%S')"
